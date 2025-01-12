@@ -9,7 +9,7 @@ import {
   Button,
   CircularProgress,
 } from "@mui/material";
-import { getTheatersByCityAndMovie } from "../core/services/theatreService"; // Adjust import path as needed
+import { getTheatersByCityAndMovie } from "../core/services/theatreService"; 
 
 interface Show {
   id: string; // Show ID used for navigation to Seat Selection
